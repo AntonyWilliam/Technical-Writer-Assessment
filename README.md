@@ -137,3 +137,7 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 Your feedback is invaluable. If you find errors or have suggestions, please raise an issue or submit a pull request on GitHub.
 
 For more assistance, reach out to our support team or visit the [Rootstock Developer Portal](https://dev.rootstock.io/).
+
+Was this article helpful?
+|[:heavy_check_mark: Yes](teste)|[:x: No](teste)|
+|---|---|
