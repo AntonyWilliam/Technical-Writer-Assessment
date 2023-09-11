@@ -1,6 +1,6 @@
 # 🌐 Rootstock Demo Code Snippets Guide
 
-![og](https://github.com/AntonyWilliam/sample2/assets/54343267/ac6109d7-a470-4b97-80ec-09f05b6fad74)
+![og](https://github.com/AntonyWilliam/sample2/assets/54343267/d681c00b-8c4c-46ff-921f-8c5c701739b0)
 
 🚀 Welcome to the Rootstock developer's hub. Dive deep into the `demo-code-snippets` repository and supercharge your development journey on the Rootstock network.
 
