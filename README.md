@@ -4,23 +4,17 @@
 
 🚀 Welcome to the Rootstock developer's hub. Dive deep into the `demo-code-snippets` repository and supercharge your development journey on the Rootstock network.
 
-## Highlighted Demos 🌟
+## Highlighted RSK Demos 🌟
 
-### 1. **CREATE and CREATE2**
-Unlock the ability to predict smart contract addresses on RSK using the CREATE2 scheme before deployment.
+### 1. **CREATE & CREATE2**
+Predict smart contract addresses on RSK before deployment.
 
-### 2. **ERC1363 Token Integration**
-Master the nuances of the ERC1363 token:
-- Forge an ERC1363 payable token.
-- Seamlessly integrate with the ERC1363Receiver contract.
-- Skillfully encode/decode call data and manage diverse receiver functions.
-
-### 3. **Dissecting EVM/RVM Opcodes**
-Demystify bytecode by converting it into a readable string, highlighting EVM/RVM opcodes, and mapping them to their mnemonic names.
-
----
+### 2. **ERC1363 Integration**
+Forge an ERC1363 token and integrate with its receiver contract.
 
 🔍 There's a universe to explore beyond these highlights. Delve deeper into the `demo-code-snippets` repository and uncover the extensive range of RSK Demos awaiting you.
+
+---
 
 
 
@@ -51,7 +45,7 @@ Before diving into the code snippets and setting up tools on Rootstock and RIF, 
   
 - **Full Stack Development on RSK**: Before diving into the demos, ensure you've completed the [Full Stack Dapp on RSK Guide](https://dev.rootstock.io/guides/full-stack-dapp-on-rsk/part1-overview/). This guide will give you a comprehensive overview of developing decentralized applications on the Rootstock platform.
 
-- **Node.js Environment**: Node.js is foundational for many blockchain development tasks. If you haven't installed Node.js yet, get it [here](https://nodejs.org/). This will also equip you with npm (Node Package Manager), crucial for managing dependencies.
+- **Node.js Environment**: Node.js is foundational for many blockchain development tasks. If you haven't installed Node.js yet, get it [here](https://nodejs.org/).
 
 - **Project-Specific Tools/Setups**: Remember, each demo or project might have unique requirements. Always refer to the project-specific documentation to ensure you have all necessary tools and configurations in place.
 
