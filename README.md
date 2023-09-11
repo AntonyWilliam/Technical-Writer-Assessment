@@ -31,11 +31,6 @@ Before diving into the code snippets and setting up tools on Rootstock and RIF, 
 
 - **Node.js Environment**: Node.js is foundational for many blockchain development tasks. If you haven't installed Node.js yet, get it [here](https://nodejs.org/). This will also equip you with npm (Node Package Manager), crucial for managing dependencies.
 
-```bash
-# Example of installing a demo using npm
-npm install
-```
-
 - **Project-Specific Tools/Setups**: Remember, each demo or project might have unique requirements. Always refer to the project-specific documentation to ensure you have all necessary tools and configurations in place.
 
 ### 🖥️ Node Requirements for Running an RSK Node
