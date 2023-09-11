@@ -21,6 +21,7 @@ Rootstock is a platform designed to merge the benefits of Ethereum with the Bitc
 
 Before diving into the code snippets, ensure you have:
 - Foundational knowledge of Solidity and Hardhat.
+- Completed the [Full Stack Dapp on RSK Guide](https://dev.rootstock.io/guides/full-stack-dapp-on-rsk/part1-overview/).
 - Necessary tools or setups required for your specific project.
 
 ## Setting up Tools on Rootstock and RIF
