@@ -1,6 +1,28 @@
 # 🌐 Rootstock Demo Code Snippets Guide
 
-🚀 Welcome to the Rootstock developer documentation. This guide will walk you through the process of setting up and utilizing the `demo-code-snippets` repository for efficient development on the Rootstock network, ensuring that you can easily set up these tools in your local environment.
+![og](https://github.com/AntonyWilliam/sample2/assets/54343267/ac6109d7-a470-4b97-80ec-09f05b6fad74)
+
+🚀 Welcome to the Rootstock developer's hub. Dive deep into the `demo-code-snippets` repository and supercharge your development journey on the Rootstock network.
+
+## Highlighted Demos 🌟
+
+### 1. **CREATE and CREATE2**
+Unlock the ability to predict smart contract addresses on RSK using the CREATE2 scheme before deployment.
+
+### 2. **ERC1363 Token Integration**
+Master the nuances of the ERC1363 token:
+- Forge an ERC1363 payable token.
+- Seamlessly integrate with the ERC1363Receiver contract.
+- Skillfully encode/decode call data and manage diverse receiver functions.
+
+### 3. **Dissecting EVM/RVM Opcodes**
+Demystify bytecode by converting it into a readable string, highlighting EVM/RVM opcodes, and mapping them to their mnemonic names.
+
+---
+
+🔍 There's a universe to explore beyond these highlights. Delve deeper into the `demo-code-snippets` repository and uncover the extensive range of RSK Demos awaiting you.
+
+
 
 **📋 Table of Contents**:
 - [🌐 Rootstock Demo Code Snippets Guide](#🌐-rootstock-demo-code-snippets-guide)
