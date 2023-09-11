@@ -82,6 +82,22 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 
 - **Solution**: Updates vary. Monitor the repository for the latest commits or watch it on GitHub.
 
+#### 4. I'm facing a "gas limit exceeded" error while deploying a smart contract. What's wrong?
+
+- **Solution**: This error typically means the contract requires more gas than the current gas limit. You can either optimize your contract to use less gas or increase the gas limit when deploying.
+
+#### 5. My transactions on Rootstock are very slow. How can I speed them up?
+
+- **Solution**: Transaction speeds can vary based on network congestion and the gas price set for the transaction. Consider increasing the gas price for higher priority.
+
+#### 6. I'm having trouble connecting my local development environment to the Rootstock testnet. Any suggestions?
+
+- **Solution**: Ensure you've properly configured your connection settings. Refer to the Rootstock documentation for guidance on connecting to the testnet.
+
+#### 7. I deployed my smart contract on Rootstock, but I can't interact with it. What could be the issue?
+
+- **Solution**: Verify the contract's ABI and address. Ensure you're using the correct tools and libraries compatible with Rootstock for contract interactions.
+
 ### Frequently Asked Questions
 
 #### Q: Can I contribute to the `demo-code-snippets` repository?
