@@ -58,12 +58,32 @@ Ensure you choose the installation method that aligns with your platform and is 
 
 ## 🛠️ Setting up and Using Tools on Rootstock and RIF
 
-To effectively set up and use tools on Rootstock and RIF:
+To effectively set up and use tools on Rootstock and RIF, follow the outlined steps:
 
-1. Clone the `demo-code-snippets` repository from GitHub.
-2. Navigate to the specific code snippet or example relevant to your project.
-3. Follow the README or provided instructions for setup.
-4. Execute the code snippet in your Rootstock project, ensuring it's tailored for the Rootstock network.
+1. **Create a New Branch**:
+   Before making any changes, start by creating a new branch in the `demo-code-snippets` repository. This ensures the main codebase remains unaltered until your changes are reviewed and merged.
+
+2. **Create a Specific Folder for Your Demo**:
+   In your branch, create a new folder dedicated to your specific demo. This organizational structure helps in easily locating and managing demos.
+
+3. **Add a Short, Self-Contained, Correct Example (SSCCE)**:
+   Within the newly created folder, add your code. Ensure that your example is:
+   - Short: It should be concise and focus on a specific functionality.
+   - Self-contained: The code should be independent and not rely on external or unrelated components.
+   - Correct: The example should run without errors and demonstrate its intended functionality.
+
+4. **Include a README.md**:
+   Accompany your demo with a `README.md` file in the same folder. This file should provide details about the demo. Specifically, it should have:
+   - `## What this demo does`: Explain the functionality or problem the demo addresses.
+   - `## How this demo works`: Describe the underlying mechanisms, functions, or methodologies the demo employs.
+
+5. **Submit a Pull Request (PR)**:
+   Once your demo is ready and documented, submit a Pull Request to the main `demo-code-snippets` repository. Your PR description should be comprehensive and include:
+   - `## What`: Briefly describe what the PR addresses or the functionality of your demo.
+   - `## Why`: Explain the significance or reason for your demo. Why should it be added to the repository?
+   - `## Refs`: List any references, external sources, or related documentation that influenced or are related to your demo.
+
+Remember, clear and detailed documentation aids in the review process and ensures that other developers can understand, utilize, and learn from your demo.
 
 > 📘 : Ensure you have all dependencies installed and check for any additional configurations required for the specific code snippet.
 
@@ -109,10 +129,6 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 
 ### 🤔 Frequently Asked Questions
 
-#### Q: Can I contribute to the `demo-code-snippets` repository?
-
-- **Answer**: Absolutely! We welcome community contributions. Submit a pull request with your proposed changes.
-
 #### Q: I'm new to blockchain development. Where do I start?
 
 - **Answer**: Begin with the [Rootstock Quickstart Guide](https://dev.rootstock.io/guides/quickstart/).
@@ -123,8 +139,8 @@ If your query or problem isn't listed, raise an issue on the repository or conta
 
 Your feedback is invaluable. If you find errors or have suggestions, please raise an issue or submit a pull request on GitHub.
 
-## 🔚 Conclusion
-
-The `demo-code-snippets` repository accelerates the development process on Rootstock by offering tailored examples. By using these snippets, developers can confidently build on the Rootstock network, addressing common challenges they might face.
-
 For more assistance, reach out to our support team or visit the [Rootstock Developer Portal](https://dev.rootstock.io/).
+
+Was this article helpful?
+|[:heavy_check_mark: Yes](teste)|[:x: No](teste)|
+|---|---|
