@@ -1,5 +1,7 @@
 # 🌐 Rootstock Demo Code Snippets Guide
 
+![og](https://github.com/AntonyWilliam/sample2/assets/54343267/ecdd90d4-e4c3-446e-9152-a03e788f82bf)
+
 🚀 Welcome to the Rootstock developer documentation. This guide will walk you through the process of setting up and utilizing the `demo-code-snippets` repository for efficient development on the Rootstock network, ensuring that you can easily set up these tools in your local environment.
 
 **📋 Table of Contents**:
