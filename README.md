@@ -3,14 +3,18 @@
 🚀 Welcome to the Rootstock developer documentation. This guide will walk you through the process of setting up and utilizing the `demo-code-snippets` repository for efficient development on the Rootstock network, ensuring that you can easily set up these tools in your local environment.
 
 **📋 Table of Contents**:
-- [🌐 Rootstock Demo Code Snippets Guide](#rootstock-demo-code-snippets-guide)
-  - [📖 Introduction to Rootstock and the `demo-code-snippets` Repository](#introduction-to-rootstock-and-the-demo-code-snippets-repository)
-  - [🔧 Pre-requisites](#pre-requisites)
-  - [🛠️ Setting up and Using Tools on Rootstock and RIF](#setting-up-and-using-tools-on-rootstock-and-rif)
-  - [🎓 Demonstrating Tool Usage with `demo-code-snippets`](#demonstrating-tool-usage-with-demo-code-snippets)
-  - [❓ Troubleshooting & FAQ](#troubleshooting--faq)
-  - [💬 Feedback and Contribution](#feedback-and-contribution)
-  - [🔚 Conclusion](#conclusion)
+- [🌐 Rootstock Demo Code Snippets Guide](#🌐-rootstock-demo-code-snippets-guide)
+  - [📖 Introduction to Rootstock and the `demo-code-snippets` Repository](#📖-introduction-to-rootstock-and-the-demo-code-snippets-repository)
+  - [🔧 Pre-requisites](#🔧-pre-requisites)
+    - [📘 Technical Knowledge & Environment Setup](#📘-technical-knowledge--environment-setup)
+    - [🖥️ Node Requirements for Running an RSK Node](#🖥️-node-requirements-for-running-an-rsk-node)
+    - [🌍 Supported Systems for RSK Node Installation](#🌍-supported-systems-for-rsk-node-installation)
+  - [🛠️ Setting up and Using Tools on Rootstock and RIF](#🛠️-setting-up-and-using-tools-on-rootstock-and-rif)
+  - [🎓 Demonstrating Tool Usage with `demo-code-snippets`](#🎓-demonstrating-tool-usage-with-demo-code-snippets)
+  - [❓ Troubleshooting & FAQ](#❓-troubleshooting--faq)
+  - [💬 Feedback and Contribution](#💬-feedback-and-contribution)
+  - [🔚 Conclusion](#🔚-conclusion)
+
 
 ## 📖 Introduction to Rootstock and the `demo-code-snippets` Repository
 
@@ -20,18 +24,18 @@ Rootstock merges the benefits of Ethereum with the Bitcoin ecosystem. The `demo-
 
 Before diving into the code snippets and setting up tools on Rootstock and RIF, ensure you meet the following requirements:
 
-### 📘 Technical Knowledge
-- Foundational knowledge of Solidity and Hardhat.
+### 📘 Technical Knowledge & Environment Setup
 
-### 🖥️ Node and npm Requirements
-To utilize npm commands and install the demos, you'll need Node.js. Node.js comes with npm (Node Package Manager) which will be essential for setting up and managing the dependencies of the demos.
+- **Solidity & Hardhat**: A foundational understanding of Solidity programming and the Hardhat development environment is essential.
+  
+- **Full Stack Development on RSK**: Before diving into the demos, ensure you've completed the [Full Stack Dapp on RSK Guide](https://dev.rootstock.io/guides/full-stack-dapp-on-rsk/part1-overview/). This guide will give you a comprehensive overview of developing decentralized applications on the Rootstock platform.
 
-1. **Installing Node.js**: Download and install [Node.js](https://nodejs.org/). This will also install npm.
-2. **Verifying Installation**: 
-    - After installation, open your terminal or command prompt and type `node -v`. This should display the version of Node.js installed.
-    - Similarly, verify npm by typing `npm -v` to display the version of npm installed.
+- **Node.js Environment**: Node.js is foundational for many blockchain development tasks. If you haven't installed Node.js yet, get it [here](https://nodejs.org/). This will also equip you with npm (Node Package Manager), crucial for managing dependencies.
 
-Once Node.js and npm are set up, you can use npm commands to install and manage the `demo-code-snippets` and their dependencies.
+- **Project-Specific Tools/Setups**: Remember, each demo or project might have unique requirements. Always refer to the project-specific documentation to ensure you have all necessary tools and configurations in place.
+
+Once you've set up Node.js and npm, you're primed to use npm commands. These commands will help you install, manage, and run the demos from the `demo-code-snippets` repository and handle their dependencies seamlessly.
+
 
 ### 🖥️ Node Requirements for Running an RSK Node
 To effectively run an RSK node, your system should meet the following minimum requirements:
@@ -111,29 +115,6 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 
 - **Solution**: Updates vary. Monitor the repository for the latest commits or watch it on GitHub.
 
-#### 4. I'm facing a "gas limit exceeded" error while deploying a smart contract. What's wrong?
-
-- **Solution**: This error typically means the contract requires more gas than the current gas limit. You can either optimize your contract to use less gas or increase the gas limit when deploying.
-
-#### 5. My transactions on Rootstock are very slow. How can I speed them up?
-
-- **Solution**: Transaction speeds can vary based on network congestion and the gas price set for the transaction. Consider increasing the gas price for higher priority.
-
-#### 6. I'm having trouble connecting my local development environment to the Rootstock testnet. Any suggestions?
-
-- **Solution**: Ensure you've properly configured your connection settings. Refer to the Rootstock documentation for guidance on connecting to the testnet.
-
-#### 7. I deployed my smart contract on Rootstock, but I can't interact with it. What could be the issue?
-
-- **Solution**: Verify the contract's ABI and address. Ensure you're using the correct tools and libraries compatible with Rootstock for contract interactions.
-
-### 🤔 Frequently Asked Questions
-
-#### Q: I'm new to blockchain development. Where do I start?
-
-- **Answer**: Begin with the [Rootstock Quickstart Guide](https://dev.rootstock.io/guides/quickstart/).
-
-If your query or problem isn't listed, raise an issue on the repository or contact our support team.
 
 ## 💬 Feedback and Contribution
 
