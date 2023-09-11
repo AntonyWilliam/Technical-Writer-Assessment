@@ -1,29 +1,39 @@
-# Rootstock Demo Code Snippets Guide
+# 🌐 Rootstock Demo Code Snippets Guide
 
-Welcome to the Rootstock developer documentation. This guide will walk you through the process of setting up and utilizing the `demo-code-snippets` repository for efficient development on the Rootstock network, ensuring that you can easily set up these tools in your local environment.
+🚀 Welcome to the Rootstock developer documentation. This guide will walk you through the process of setting up and utilizing the `demo-code-snippets` repository for efficient development on the Rootstock network, ensuring that you can easily set up these tools in your local environment.
 
-**Table of Contents**:
-- [Rootstock Demo Code Snippets Guide](#rootstock-demo-code-snippets-guide)
-  - [Introduction to Rootstock and the `demo-code-snippets` Repository](#introduction-to-rootstock-and-the-demo-code-snippets-repository)
-  - [Pre-requisites](#pre-requisites)
-  - [Setting up and Using Tools on Rootstock and RIF](#setting-up-and-using-tools-on-rootstock-and-rif)
-  - [Demonstrating Tool Usage with `demo-code-snippets`](#demonstrating-tool-usage-with-demo-code-snippets)
-  - [Troubleshooting & FAQ](#troubleshooting--faq)
-  - [Feedback and Contribution](#feedback-and-contribution)
-  - [Conclusion](#conclusion)
+**📋 Table of Contents**:
+- [🌐 Rootstock Demo Code Snippets Guide](#rootstock-demo-code-snippets-guide)
+  - [📖 Introduction to Rootstock and the `demo-code-snippets` Repository](#introduction-to-rootstock-and-the-demo-code-snippets-repository)
+  - [🔧 Pre-requisites](#pre-requisites)
+  - [🛠️ Setting up and Using Tools on Rootstock and RIF](#setting-up-and-using-tools-on-rootstock-and-rif)
+  - [🎓 Demonstrating Tool Usage with `demo-code-snippets`](#demonstrating-tool-usage-with-demo-code-snippets)
+  - [❓ Troubleshooting & FAQ](#troubleshooting--faq)
+  - [💬 Feedback and Contribution](#feedback-and-contribution)
+  - [🔚 Conclusion](#conclusion)
 
-## Introduction to Rootstock and the `demo-code-snippets` Repository
+## 📖 Introduction to Rootstock and the `demo-code-snippets` Repository
 
 Rootstock merges the benefits of Ethereum with the Bitcoin ecosystem. The `demo-code-snippets` repository is a vital tool for developers, offering code examples tailored for the Rootstock network.
 
-## Pre-requisites
+## 🔧 Pre-requisites
 
 Before diving into the code snippets and setting up tools on Rootstock and RIF, ensure you meet the following requirements:
 
-### Technical Knowledge
+### 📘 Technical Knowledge
 - Foundational knowledge of Solidity and Hardhat.
 
-### Node Requirements
+### 🖥️ Node and npm Requirements
+To utilize npm commands and install the demos, you'll need Node.js. Node.js comes with npm (Node Package Manager) which will be essential for setting up and managing the dependencies of the demos.
+
+1. **Installing Node.js**: Download and install [Node.js](https://nodejs.org/). This will also install npm.
+2. **Verifying Installation**: 
+    - After installation, open your terminal or command prompt and type `node -v`. This should display the version of Node.js installed.
+    - Similarly, verify npm by typing `npm -v` to display the version of npm installed.
+
+Once Node.js and npm are set up, you can use npm commands to install and manage the `demo-code-snippets` and their dependencies.
+
+### 🖥️ Node Requirements for Running an RSK Node
 To effectively run an RSK node, your system should meet the following minimum requirements:
 
 - **Cores**: 2
@@ -31,22 +41,22 @@ To effectively run an RSK node, your system should meet the following minimum re
 - **Storage**: 128 GB
 - **OS**: x64
 
-### Supported Systems for RSK Node Installation
+### 🌍 Supported Systems for RSK Node Installation
 Depending on your platform, there are various methods available for installing and running an RSK node:
 
-#### Local Systems
+#### 💼 Local Systems
 - **Linux**: Ubuntu Package, CentOS, Fat JAR, Docker
 - **Mac**: Fat JAR, Docker
 - **Windows**: Fat JAR, Docker
 
-#### Cloud Systems
+#### ☁️ Cloud Systems
 - **AWS**: AWS AMI, Ubuntu Package, Docker
 - **Azure**: Azure VM Image, Ubuntu Package, Docker
 - **Google Cloud**: Ubuntu Package, Fat JAR, Docker
 
 Ensure you choose the installation method that aligns with your platform and is most comfortable for your development environment.
 
-## Setting up and Using Tools on Rootstock and RIF
+## 🛠️ Setting up and Using Tools on Rootstock and RIF
 
 To effectively set up and use tools on Rootstock and RIF:
 
@@ -55,10 +65,9 @@ To effectively set up and use tools on Rootstock and RIF:
 3. Follow the README or provided instructions for setup.
 4. Execute the code snippet in your Rootstock project, ensuring it's tailored for the Rootstock network.
 
-> :information_source: 
-> : Ensure you have all dependencies installed and check for any additional configurations required for the specific code snippet.
+> 📘 : Ensure you have all dependencies installed and check for any additional configurations required for the specific code snippet.
 
-## Demonstrating Tool Usage with `demo-code-snippets`
+## 🎓 Demonstrating Tool Usage with `demo-code-snippets`
 
 The `demo-code-snippets` repository is designed to guide developers through practical examples. It's crucial to:
 
@@ -66,9 +75,9 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 - Understand the context and application of each snippet.
 - Test each snippet in a controlled environment before integrating it into your main project.
 
-## Troubleshooting & FAQ
+## ❓ Troubleshooting & FAQ
 
-### Common Issues and Their Solutions
+### 🐞 Common Issues and Their Solutions
 
 #### 1. I'm having issues cloning the `demo-code-snippets` repository. What should I do?
 
@@ -98,7 +107,7 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 
 - **Solution**: Verify the contract's ABI and address. Ensure you're using the correct tools and libraries compatible with Rootstock for contract interactions.
 
-### Frequently Asked Questions
+### 🤔 Frequently Asked Questions
 
 #### Q: Can I contribute to the `demo-code-snippets` repository?
 
@@ -110,11 +119,11 @@ The `demo-code-snippets` repository is designed to guide developers through prac
 
 If your query or problem isn't listed, raise an issue on the repository or contact our support team.
 
-## Feedback and Contribution
+## 💬 Feedback and Contribution
 
 Your feedback is invaluable. If you find errors or have suggestions, please raise an issue or submit a pull request on GitHub.
 
-## Conclusion
+## 🔚 Conclusion
 
 The `demo-code-snippets` repository accelerates the development process on Rootstock by offering tailored examples. By using these snippets, developers can confidently build on the Rootstock network, addressing common challenges they might face.
 
